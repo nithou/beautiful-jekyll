@@ -1,0 +1,121 @@
+---
+common-css:
+  - "/css/bootstrap.min.css"
+  - "/css/bootstrap-social.css"
+  - "/css/main.css"
+common-ext-css:
+  - "//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css"
+common-googlefonts:
+  - "Lora:400,700,400italic,700italic"
+  - "Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
+common-js:
+  - "/js/jquery-1.11.2.min.js"
+  - "/js/bootstrap.min.js"
+  - "/js/main.js"
+---
+
+<!DOCTYPE html>
+<html lang="fr">
+  <!-- Beautiful Jekyll | MIT license | Copyright Dean Attali 2016 -->
+  {% include head.html %}
+  
+  <style>
+  body {
+	height:100vh;
+	background-color:white;
+}
+
+.half-block {
+	width:50%;
+	height:100vh;
+	float:left;
+}
+
+#logo, #suscribe-form {
+	margin-top:25vh!important;
+}
+
+#logo {
+	width:200px;
+	margin:auto;
+	position:relative;
+}
+
+#logo-img {
+	max-width:100%;
+	height:auto;
+}
+
+#logo-text {
+	position:absolute;
+	top: 165px;
+    width: 500px;
+    left: -140px;
+}
+
+#brand-area {
+	text-align:center;
+	background-image:url('background.jpg');
+	background-size:75%;
+}
+
+
+#suscribe-area {
+	background-color:white;
+}
+
+@media screen and (max-width: 1050px) {
+
+	#logo { 
+		width:150px;
+	}
+	#logo-text {
+		top: 130px;
+    	width: 300px;
+    	left: -65px;
+	}
+}
+
+@media screen and (max-width: 850px) {
+	.half-block {
+		float:none;
+		width:100%;
+		padding-top:5%;
+		height:auto;
+	}
+
+	#brand-area {
+		min-height:140px;
+	}
+
+	#logo { 
+		width:100px;
+	}
+	#logo-text {
+		top: 80px;
+    	width: 300px;
+    	left: -100px;
+	}
+	#logo, #suscribe-form {
+		margin-top:auto!important;
+	}
+}
+</style>
+
+  <body>
+
+      <div id="brand-area" class="half-block">
+        	<div id="logo">
+        		<img src="landing/logo.gif" alt="Image du logo de Tranches de Livres" id="logo-img"/>
+        		<img src="landing/logo-text.png" alt="Tranches de Livres" id="logo-text" />
+        	</div>
+        </div>
+
+        <div id="suscribe-area" class="half-block">
+            <div id="suscribe-form">
+        	   <script type="text/javascript" src="https://app.mailerlite.com/data/webforms/865428/i9l0s8.js?v1"></script>
+            </div>
+    	</div>
+  
+  </body>
+</html>
