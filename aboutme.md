@@ -1,16 +1,9 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: A propos
+subtitle: Pourquoi j'ai lancé Tranches de Livres
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+Je m'appelle Simon Vandereecken. J'ai l'habitude de lire énormément de livres chaque année dans des domaines très divers, et avec le temps j'ai voulu me mettre à pratager ces lectures. Je me suis rendu compte qu'autour de moi peu de gens pouvaient consacrer du temps à la lecture ou ne savaient pas par où commencer, d'où la création de cette newsletter.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
-
-What else do you need?
-
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+Une fois par semaine, je propose de prendre un livre et d'en résumer le message principal, de manière à pouvoir mettre ses apprentissages en application, grandir, évoluer et pouvoir aller vers la vie que l'on aimerait mener. Tranches de Livres est tout jeune, mais je m'y consacre énormément et c'est un projet auquel je tiens. J'espère donc avoir l'occasion de te retrouver ;)
