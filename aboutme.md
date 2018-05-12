@@ -3,7 +3,6 @@ layout: page
 title: A propos
 subtitle: Pourquoi j'ai lancé Tranches de Livres
 bigimg: /img/big-bg.jpg
-image: /img/hellow_world.jpeg
 ---
 
 Je m'appelle Simon Vandereecken. J'ai l'habitude de lire énormément de livres chaque année dans des domaines très divers, et avec le temps j'ai voulu me mettre à pratager ces lectures. Je me suis rendu compte qu'autour de moi peu de gens pouvaient consacrer du temps à la lecture ou ne savaient pas par où commencer, d'où la création de cette newsletter.
