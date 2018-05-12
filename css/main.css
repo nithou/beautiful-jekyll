@@ -32,6 +32,22 @@ a:hover,
 a:focus {
   color: {{ site.hover-col }};
 }
+
+@font-face {
+  font-family: 'Brusher';
+    src:  url('../webfont/Brusher.ttf.woff') format('woff'),
+    url('../webfont/Brusher.ttf.svg#Brusher') format('svg'),
+    url('../webfont/Brusher.ttf.eot'),
+    url('../webfont/Brusher.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+.brusher {
+  font-family: 'Brusher';  
+  color: black;
+}
+
 blockquote {
   color: #808080;
   font-style: italic;
