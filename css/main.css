@@ -61,6 +61,7 @@ hr.small {
   border-width: 4px;
   border-color: inherit;
   border-radius: 3px;
+  box-shadow:none!important;
 }
 
 .main-content {
@@ -483,7 +484,6 @@ footer .theme-by {
 .intro-header.big-img .post-heading {
   padding: 100px 0;
   color: #FFF;
-  text-shadow: 1px 1px 3px #000;
 }
 .intro-header .page-heading h1 {
   margin-top: 0;
