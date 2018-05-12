@@ -273,6 +273,10 @@ img {
 
 /* --- Footer --- */
 
+.get-mails {
+  background-color:#47c0f3;
+}
+
 footer {
   padding: 30px 0;
   border-top: 1px #EAEAEA solid;
