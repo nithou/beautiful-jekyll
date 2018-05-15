@@ -219,6 +219,13 @@ prose:
           help: "Add a thumbnail image to your post."
           placeholder: "Thumbnail"
           alterable: true
+      - name: "og-image"
+        field:
+          element: "text"
+          label: "OG Image"
+          help: "Add a sharing image to your post."
+          placeholder: "OG Image"
+          alterable: true
       - name: "published"
         field:
           element: "checkbox"
