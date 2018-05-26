@@ -1,0 +1,122 @@
+body {
+	background-color:white;
+	background-image:url('background-white.jpg');
+	font-family:Verdana, sans-serif;
+	text-align: center;
+}
+
+@font-face {
+  font-family: 'Brusher';
+    src:  url('webfont/Brusher.ttf.woff') format('woff'),
+    url('webfont/Brusher.ttf.svg#Brusher') format('svg'),
+    url('webfont/Brusher.ttf.eot'),
+    url('webfont/Brusher.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+.brusher {
+  font-family: 'Brusher'; 
+  font-weight:normal;
+  font-size:2em;
+  margin:0;
+}
+
+#logo {
+	margin-top: 10px!important;
+	height: 145px;
+	width:100px;
+	margin:auto;
+	position:relative;
+}
+
+#logo-img {
+	max-width:100%;
+	height:auto;
+}
+
+#logo-text {
+	position:absolute;
+    top: 80px;
+    width: 400px;
+    left: -150px
+}
+
+.lead {
+	padding-bottom: 1em;
+	color:#4A4A4A;
+}
+
+#suscribe-form {
+	width:400px;
+	margin:auto;
+	background-color:white;
+}
+
+#usps {
+	background-color:#47c0f3;
+	color:white;
+	margin-top:50px!important;
+}
+
+.container {
+	width:80%;
+	margin:auto;
+	padding:2em 0;
+}
+
+.tier {
+	width:32%;
+	float:left;
+	text-align:center;
+}
+
+.tier i {
+	font-size:2em;
+}
+
+.tier p {
+	font-size:0.9em;
+	width:85%;
+	margin:auto;
+	margin-top:0.5em;
+	line-height:1.5;
+}
+
+.tier-center {
+	margin-left:2%;
+	margin-right:2%;
+}
+
+
+@media screen and (max-width: 850px) {
+
+	#logo { 
+		width:100px;
+	}
+
+	#logo-text {
+		top: 80px;
+    	width: 300px;
+    	left: -100px;
+	}
+	#logo, #suscribe-form {
+		margin-top:auto!important;
+	}
+
+	#suscribe-form {
+	width:95%;
+	margin:auto;
+	}
+
+	.tier {
+		float:none;
+		width:95%;
+		margin:auto;
+		margin-bottom:2em;
+	}
+
+	.tier p {
+		width:100%;
+	}
+}
