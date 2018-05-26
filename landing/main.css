@@ -1,20 +1,31 @@
 body {
-	height:100vh;
 	background-color:white;
+	background-image:url('background.jpg');
+	font-family:Verdana, sans-serif;
+	text-align: center;
 }
 
-.half-block {
-	width:50%;
-	height:100vh;
-	float:left;
+@font-face {
+  font-family: 'Brusher';
+    src:  url('webfont/Brusher.ttf.woff') format('woff'),
+    url('webfont/Brusher.ttf.svg#Brusher') format('svg'),
+    url('webfont/Brusher.ttf.eot'),
+    url('webfont/Brusher.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
 }
 
-#logo, #suscribe-form {
-	margin-top:25vh!important;
+.brusher {
+  font-family: 'Brusher'; 
+  font-weight:normal;
+  font-size:2em;
+  margin:0;
 }
 
 #logo {
-	width:200px;
+	margin-top: 10px!important;
+	height: 145px;
+	width:100px;
 	margin:auto;
 	position:relative;
 }
@@ -26,49 +37,64 @@ body {
 
 #logo-text {
 	position:absolute;
-	top: 165px;
-    width: 500px;
-    left: -140px;
+    top: 80px;
+    width: 400px;
+    left: -150px
 }
 
-#brand-area {
-	text-align:center;
-	background-image:url('background.jpg');
-	background-size:75%;
+.lead {
+	padding-bottom: 1em;
+	color:#4A4A4A;
 }
 
-
-#suscribe-area {
+#suscribe-form {
+	width:400px;
+	margin:auto;
 	background-color:white;
 }
 
-@media screen and (max-width: 1050px) {
-
-	#logo { 
-		width:150px;
-	}
-	#logo-text {
-		top: 130px;
-    	width: 300px;
-    	left: -65px;
-	}
+#usps {
+	background-color:#47c0f3;
+	color:white;
+	margin-top:50px!important;
 }
 
-@media screen and (max-width: 850px) {
-	.half-block {
-		float:none;
-		width:100%;
-		padding-top:5%;
-		height:auto;
-	}
+.container {
+	width:80%;
+	margin:auto;
+	padding:2em 0;
+}
 
-	#brand-area {
-		min-height:140px;
-	}
+.tier {
+	width:32%;
+	float:left;
+	text-align:center;
+}
+
+.tier i {
+	font-size:2em;
+}
+
+.tier p {
+	font-size:0.9em;
+	width:85%;
+	margin:auto;
+	margin-top:0.5em;
+	line-height:1.5;
+}
+
+.tier-center {
+	margin-left:2%;
+	margin-right:2%;
+}
+
+
+@media screen and (max-width: 850px) {
 
 	#logo { 
 		width:100px;
 	}
+
 	#logo-text {
 		top: 80px;
     	width: 300px;
@@ -76,5 +102,16 @@ body {
 	}
 	#logo, #suscribe-form {
 		margin-top:auto!important;
+	}
+
+	.tier {
+		float:none;
+		width:95%;
+		margin:auto;
+		margin-bottom:2em;
+	}
+
+	.tier p {
+		width:100%;
 	}
 }
