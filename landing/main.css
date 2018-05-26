@@ -100,8 +100,10 @@ body {
     	width: 300px;
     	left: -100px;
 	}
-	#logo, #suscribe-form {
-		margin-top:auto!important;
+
+	#suscribe-form {
+		width:95%!important;
+		margin:auto!important;
 	}
 
 	.tier {
