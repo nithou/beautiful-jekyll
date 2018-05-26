@@ -1,73 +1,58 @@
----
-layout: page
-title: Tranches de Livres
-subtitle: Une semaine, un livre, 3 minutes de lecture pour se cultiver et évoluer.
-use-site-title: true
-bigimg: /img/big-bg.jpg
----
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Tranches de Livres</title>
+        <meta name="description" content="Une semaine, un livre, 3 minutes de lecture pour se cultiver et évoluer.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="icon.jpg">
+        <!-- Place favicon.ico in the root directory -->
 
-<div class="posts-list">
-  {% for post in paginator.posts %}
-  <article class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-	  <h2 class="post-title">{{ post.title }}</h2>
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="main.css?v=26052018B">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    </head>
+    <body>
 
-	  {% if post.subtitle %}
-	  <h3 class="post-subtitle">
-	    {{ post.subtitle }}
-	  </h3>
-	  {% endif %}
-    </a>
+		<div id="logo">
+    		<img src="logo.gif" alt="Image du logo de Tranches de Livres" id="logo-img"/>
+    		<img src="logo-text.png" alt="Tranches de Livres" id="logo-text" />
+    		<div style="clear:both;"></div>
+    	</div>
 
-    <p class="post-meta">
-      Posté le {{ post.date | date: "%d-%m-%Y" }}
-    </p>
+        <div id="suscribe-form">
 
-    <div class="post-entry-container">
-      {% if post.image %}
-      <div class="post-image">
-        <a href="{{ post.url | prepend: site.baseurl }}">
-          <img src="{{ post.image }}">
-        </a>
-      </div>
-      {% endif %}
-      <div class="post-entry">
-        {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }}
-        {% assign excerpt_word_count = post.excerpt | number_of_words %}
-        {% if post.content != post.excerpt or excerpt_word_count > site.excerpt_length %}
-          <br/><a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Lire&nbsp;plus]</a>
-        {% endif %}
-      </div>
-    </div>
+        	<p class="lead">Une fois par semaine, <strong>une dose de sagesse</strong> te permettant de peu à peu construire <br/><strong>la vie dont tu rêves</strong>.</p>
 
-    {% if post.tags.size > 0 %}
-    <div class="blog-tags">
-      Tags:
-      {% if site.link-tags %}
-      {% for tag in post.tags %}
-      <a href="{{ site.baseurl }}/tags#{{- tag -}}">{{- tag -}}</a>
-      {% endfor %}
-      {% else %}
-        {{ post.tags | join: ", " }}
-      {% endif %}
-    </div>
-    {% endif %}
+    	   <script type="text/javascript" src="https://static.mailerlite.com/data/webforms/910194/h8o6a0.js?v5"></script>
+        </div>
 
-   </article>
-  {% endfor %}
-</div>
+        <section id="usps">
 
-{% if paginator.total_pages > 1 %}
-<ul class="pager main-pager">
-  {% if paginator.previous_page %}
-  <li class="previous">
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Plus récents</a>
-  </li>
-  {% endif %}
-  {% if paginator.next_page %}
-  <li class="next">
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Plus anciens &rarr;</a>
-  </li>
-  {% endif %}
-</ul>
-{% endif %}
+        	<div class="container">
+	        	<div class="tier">
+	        		<i class="fas fa-crown"></i>
+	        		<h3 class="brusher">Pertinent</h3>
+	        		<p>Du développement personnel à la vulgarisation, la newsletter s'adresse à toute personne désireuse de changer sa vie.</p>
+	        	</div>
+
+	        	<div class="tier tier-center">
+	        		<i class="fas fa-clock fa-spin"></i>
+	        		<h3 class="brusher">Rapide</h3>
+	        		<p>Pris dans la vie moderne tu as sûrement peu le temps de lire, je te propose un paquet de sagesse en trois minutes.</p>
+	        	</div>
+
+	        	<div class="tier">
+	        		<i class="fas fa-thumbs-up"></i>
+	        		<h3 class="brusher">Concret</h3>
+	        		<p>Des actions à mettre en place, des questions sur lesquelles réfléchir, tout pour te rendre acteur de ton changement.</p>
+	        	</div>
+
+	        	<div style="clear:both;"></div>
+	        </div>
+
+        </section>
+
+    </body>
+</html>
