@@ -1,8 +1,9 @@
 body {
-	background-color:white;
-	background-image:url('background-white.jpg');
+	background-color:#47c0f3;
 	font-family:Verdana, sans-serif;
 	text-align: center;
+	padding:0;
+	margin:0;
 }
 
 @font-face {
@@ -15,45 +16,25 @@ body {
     font-style: normal;
 }
 
-.brusher {
-  font-family: 'Brusher'; 
-  font-weight:normal;
-  font-size:2em;
-  margin:0;
-}
+/* AREA DEFINITION */ 
 
-#logo {
-	margin-top: 10px!important;
-	height: 145px;
-	width:100px;
-	margin:auto;
+#main-area {
+	padding:0;
+	margin:0;
+	height:100vh;
+	background-image:url('background-white.jpg');
 	position:relative;
-}
-
-#logo-img {
-	max-width:100%;
-	height:auto;
-}
-
-#logo-text {
-	position:absolute;
-    top: 80px;
-    width: 400px;
-    left: -150px
-}
-
-.lead {
-	padding-bottom: 1em;
-	color:#4A4A4A;
-}
-
-#suscribe-form {
-	width:400px;
-	margin:auto;
-	background-color:white;
+	z-index:2;
+	margin-bottom:250px;
+	box-shadow:0 0 15px grey;
 }
 
 #usps {
+	position:fixed;
+	z-index:-1;
+	height:230px;
+	width:100%;
+	bottom:0;
 	background-color:#47c0f3;
 	color:white;
 	margin-top:50px!important;
@@ -89,10 +70,72 @@ body {
 }
 
 
+/* FONT STYLE */ 
+
+.brusher {
+  font-family: 'Brusher'; 
+  font-weight:normal;
+  font-size:2em;
+  margin:0;
+}
+
+/* LOGO */
+
+#logo {
+	padding-top: 10vh!important;
+	height: 145px;
+	width:100px;
+	margin:auto;
+	position:relative;
+}
+
+#logo-img {
+	max-width:100%;
+	height:auto;
+}
+
+#logo-text {
+	position:absolute;
+    top: 20vh;
+    width: 400px;
+    left: -150px
+}
+
+/* FORM */
+
+.lead {
+	padding-bottom: 1em;
+	color:#4A4A4A;
+}
+
+#suscribe-form {
+	width:400px;
+	margin:auto;
+	background-color:white;
+}
+
 @media screen and (max-width: 850px) {
 
 	#logo { 
 		width:100px;
+		padding-top:1vh!important;
+	}
+
+	#main-area {
+		height:auto;
+		padding-bottom: 10vh;
+		margin-bottom:0;
+	}
+
+	#usps {
+		position:relative;
+		z-index:-1;
+		height:auto;
+		width:100%;
+		bottom:0;
+		background-color:#47c0f3;
+		color:white;
+		margin-top:50px!important;
 	}
 
 	#logo-text {
