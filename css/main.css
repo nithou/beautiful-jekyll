@@ -138,6 +138,14 @@ img {
   letter-spacing: 1px;
 }
 
+.navbar-custom .nav li:last-child {
+  background-color:white;
+}
+
+.navbar-custom .nav li:last-child {
+  color:#47c0f3;
+}
+
 .navbar-custom .navbar-brand,
 .navbar-custom .nav li a {
   font-weight: 800;
