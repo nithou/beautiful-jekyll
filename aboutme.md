@@ -2,7 +2,7 @@
 layout: page
 title: A propos
 subtitle: Pourquoi j'ai lancé Tranches de Livres
-bigimg: /img/big-bg.jpg
+bigimg: /img/background-white.jpg?v=2
 ---
 
 Depuis que je suis petit je dévore des livres à la pelle. Ces livres m’ont permis de m’évader, d’apprendre, de grandir, d’imaginer. Peu à peu ils sont devenus de véritables mentors vers qui je me tourne lors de questionnements profonds. J’ai découvert qu’à chaque question que je pouvais me poser, **un livre était capable d’y répondre** et je m’empressais de le dévorer.
