@@ -140,10 +140,11 @@ img {
 
 .navbar-custom .nav li:last-child {
   background-color:white;
+  margin-right:1em;
 }
 
-.navbar-custom .nav li:last-child {
-  color:#47c0f3;
+.navbar-custom .nav li:last-child a {
+  color:#47c0f3!important;
 }
 
 .navbar-custom .navbar-brand,
