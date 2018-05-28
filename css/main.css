@@ -370,6 +370,7 @@ footer .theme-by {
 }
 .post-preview .post-entry {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size:0.9em;
 }
 .post-entry-container {
   display: inline-block;
@@ -379,19 +380,16 @@ footer .theme-by {
   width: 100%;
 }
 .post-image {
-  float: right;
-  height: 192px;
-  width: 192px;
-  margin-top: -35px;
-  filter: grayscale(90%);
+  float: left;
+  height: 200px;
+  width: 133px;
+  margin-right: 20px;
 }
-.post-image:hover {
-  filter: grayscale(0%);
-}
+
+
 .post-image img {
-  border-radius: 100px;
-  height: 192px;
-  width: 192px;
+  height: 200px;
+  width: 133px;
 }
 .post-preview .post-read-more {
   font-weight: 800;
