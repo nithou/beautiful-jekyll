@@ -31,9 +31,11 @@ layout: base
         </div>
       {% endif %}
      
+      {% if page.image %}
       <div class="post-image-single">
         <img src="{{ page.image }}">
       </div>
+      {% endif %}
 
       <article role="main" class="blog-post">
         {{ content }}
