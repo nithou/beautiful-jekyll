@@ -391,6 +391,13 @@ footer .theme-by {
   height: 200px;
   width: 133px;
 }
+
+.post-image-single {
+  height:200px;
+  width:133px;
+  margin:auto;
+}
+
 .post-preview .post-read-more {
   font-weight: 800;
 }
