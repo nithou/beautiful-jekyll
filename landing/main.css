@@ -25,14 +25,14 @@ body {
 	background-image:url('background-white.jpg');
 	position:relative;
 	z-index:2;
-	margin-bottom:250px;
+	margin-bottom:400px;
 	box-shadow:0 0 15px grey;
 }
 
 #usps {
 	position:fixed;
 	z-index:-1;
-	height:230px;
+	height:400px;
 	width:100%;
 	bottom:0;
 	background-color:#47c0f3;
@@ -158,5 +158,9 @@ body {
 
 	.tier p {
 		width:100%;
+	}
+	
+	.tier img {
+		max-width:100%;
 	}
 }
