@@ -1,5 +1,5 @@
 ---
-layout: minimal
+layout: page
 title: Merci !
 subtitle: Ravi de te voir rejoindre l'aventure
 bigimg: /img/background-white.jpg?v=2
