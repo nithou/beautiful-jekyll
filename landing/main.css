@@ -114,6 +114,13 @@ body {
 	background-color:white;
 }
 
+#bookrange {
+	position: absolute;
+	left: 50%;
+	margin-left: -300px;
+	bottom: 0;
+}
+
 @media screen and (max-width: 850px) {
 
 	#logo { 
@@ -161,7 +168,11 @@ body {
 		width:100%;
 	}
 	
-	.tier img {
-		max-width:100%;
+	#bookrange {
+		max-width:90%;
+		position: absolute;
+		margin-left: auto!important;
+		margin-right:auto!important;
+		bottom: 0;
 	}
 }
