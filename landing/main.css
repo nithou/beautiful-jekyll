@@ -143,13 +143,13 @@ body {
 		background-color:#47c0f3;
 		color:white;
 		margin-top:50px!important;
-		padding-bottom:200px;
+		padding-bottom:100px;
 	}
 
 	#logo-text {
 		top: 80px;
-    	width: 300px;
-    	left: -100px;
+    		width: 300px;
+    		left: -100px;
 	}
 
 	#suscribe-form {
@@ -169,10 +169,11 @@ body {
 	}
 	
 	#bookrange {
-		max-width:90%;
+		max-width:100%;
 		position: absolute;
 		margin-left: auto!important;
 		margin-right:auto!important;
 		bottom: 0;
+		left:0;
 	}
 }
